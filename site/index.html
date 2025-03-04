@@ -1,37 +1,328 @@
+<!-- 
+THEME: Small Apps | Bootstrap App Landing Template
+VERSION: 1.0.0
+AUTHOR: Themefisher
+
+HOMEPAGE: https://themefisher.com/products/small-apps-free-app-landing-page-template/
+DEMO: https://demo.themefisher.com/small-apps/
+GITHUB: https://github.com/themefisher/Small-Apps-Bootstrap-App-Landing-Template
+
+Get HUGO Version : https://themefisher.com/products/small-apps-hugo-app-landing-theme/
+
+WEBSITE: https://themefisher.com
+TWITTER: https://twitter.com/themefisher
+FACEBOOK: https://www.facebook.com/themefisher
+-->
+
 <!DOCTYPE html>
-
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>NGINX on Railway</title>
-    <meta name="description" content="Choo Choo!" />
+<head>
 
-    <link rel="icon" href="/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Basic Page Needs
+  ================================================== -->
+  <meta charset="utf-8">
+  <title>PhisiEMR | Sistema de Fichas Veterinarias</title>
 
-    <link rel="stylesheet" href="/styles.css?v=1.0" />
-  </head>
+  <!-- Mobile Specific Metas
+  ================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Sistema de Fichas Veterinarias">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta name="author" content="Themefisher">
+  <meta name="generator" content="Themefisher Small Apps Template v1.0">
 
-  <body>
-    <main>
-      <img
-        src="https://railway.app/brand/logo-light.svg"
-        alt="Railway logo"
-        class="logo"
-      />
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="images/logo_phisi.svg" />
+  
+  <!-- PLUGINS CSS STYLE -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <link rel="stylesheet" href="plugins/slick/slick-theme.css">
+  <link rel="stylesheet" href="plugins/fancybox/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="plugins/aos/aos.css">
 
-      <h1>NGINX on Railway</h1>
+  <!-- CUSTOM CSS -->
+  <link href="css/style.css" rel="stylesheet">
 
-      <p>
-        Choo Choo! This is an example of an NGINX static site running on
-        Railway.
-        <a
-          href="https://github.com/railwayapp/starters/tree/master/examples/nginx"
-          >View source</a
-        >.
-      </p>
-    </main>
+</head>
 
-    <script src="/script.js"></script>
-  </body>
+<body class="body-wrapper" data-spy="scroll" data-target=".privacy-nav">
+
+
+<nav class="navbar main-nav navbar-expand-lg px-2 px-sm-0 py-2 py-lg-0">
+  <div class="container">
+    <a class="navbar-brand" href="index.html"><img src="images/logo.svg" alt="logo"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="ti-menu"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="mailto:blackquiltro@proton.me">Contacto</a>
+          </a>          
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!--====================================
+=            Hero Section            =
+=====================================-->
+<section class="section gradient-banner">
+	<div class="shapes-container">
+		<div class="shape" data-aos="fade-down-left" data-aos-duration="1500" data-aos-delay="100"></div>
+		<div class="shape" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100"></div>
+		<div class="shape" data-aos="fade-up-right" data-aos-duration="1000" data-aos-delay="200"></div>
+		<div class="shape" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"></div>
+		<div class="shape" data-aos="fade-down-left" data-aos-duration="1000" data-aos-delay="100"></div>
+		<div class="shape" data-aos="fade-down-left" data-aos-duration="1000" data-aos-delay="100"></div>
+		<div class="shape" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300"></div>
+		<div class="shape" data-aos="fade-down-right" data-aos-duration="500" data-aos-delay="200"></div>
+		<div class="shape" data-aos="fade-down-right" data-aos-duration="500" data-aos-delay="100"></div>
+		<div class="shape" data-aos="zoom-out" data-aos-duration="2000" data-aos-delay="500"></div>
+		<div class="shape" data-aos="fade-up-right" data-aos-duration="500" data-aos-delay="200"></div>
+		<div class="shape" data-aos="fade-down-left" data-aos-duration="500" data-aos-delay="100"></div>
+		<div class="shape" data-aos="fade-up" data-aos-duration="500" data-aos-delay="0"></div>
+		<div class="shape" data-aos="fade-down" data-aos-duration="500" data-aos-delay="0"></div>
+		<div class="shape" data-aos="fade-up-right" data-aos-duration="500" data-aos-delay="100"></div>
+		<div class="shape" data-aos="fade-down-left" data-aos-duration="500" data-aos-delay="0"></div>
+	</div>
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-md-6 order-2 order-md-1 text-center text-md-left">
+				<h1 class="text-white font-weight-bold mb-4">PhisiEMR</h1>
+				<p class="text-white">Sistema de Fichas Clínicas Veterinarias.</p>
+				<p class="text-white mb-5">Diseñado por veterinarios, para veterinarios.</p>
+				<a href="https://fichas.phisi.net" class="btn btn-main-md">Acceso Clientes</a>
+			</div>
+			<div class="col-md-6 text-center order-1 order-md-2">
+				<img class="img-fluid" src="images/image1.svg" alt="screenshot">
+			</div>
+		</div>
+	</div>
+</section>
+<!--====  End of Hero Section  ====-->
+
+<section class="section pt-0 position-relative pull-top">
+	<div class="container">
+		<div class="rounded shadow p-5 bg-white">
+			<div class="row">
+				<div class="col-lg-4 col-md-6 mt-5 mt-md-0 text-center">
+					<i class="ti-user text-primary h1"></i>
+					<h3 class="mt-4 text-capitalize h5 ">Para Veterinarios</h3>
+					<p class="regular text-muted">Nacido directamente de la operación real de un hospital veterinario, 
+						nuestro principal foco es ser un sistema de gestión de fichas clínicas. Medicina primero, inventarios después.</p>
+				</div>
+				<div class="col-lg-4 col-md-6 mt-5 mt-md-0 text-center">
+					<i class="ti-shine text-primary h1"></i>
+					<h3 class="mt-4 text-capitalize h5 ">Simple y Preciso</h3>
+					<p class="regular text-muted">Ponemos especial énfasis en interfaces intuitivas y accesibles. Poderoso, pero sin miles de opciones que nadie usa.</p>
+				</div>
+				<div class="col-lg-4 col-md-12 mt-5 mt-lg-0 text-center">
+					<i class="ti-thought text-primary h1"></i>
+					<h3 class="mt-4 text-capitalize h5 ">En la nube y en tu móvil</h3>
+					<p class="regular text-muted">Nuestro sistema es web, opera en la nube y es compatible con todos los dispositivos. 
+						Trabaja desde cualquier lugar, en tu celular, o computador. Sólo necesitas internet.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--==================================
+=            Feature Grid            =
+===================================-->
+<section class="feature section pt-0">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 ml-auto justify-content-center">
+				<!-- Feature Mockup -->
+				<div class="image-content" data-aos="fade-right">
+					<img class="img-fluid" src="images/image2.png" alt="iphone">
+				</div>
+			</div>
+			<div class="col-lg-6 mr-auto align-self-center">
+				<div class="feature-content">
+					<!-- Feature Title -->
+					<h2>Todo lo que tu paciente necesita</h2>
+					<!-- Feature Description -->
+					<p class="desc">
+						<ul>
+							<li>
+								Registro de consultas, constantes, procedimientos, cirugías y vacunas.								
+							</li>
+							<li>Ficha de hospitalización, evolución clínica y altas</li>
+							<li>Registro de tomas de muestra y exámenes</li>
+							<li>Certificados de viaje, vacunación y desparasitación</li>
+							<li>Reportes (Excel) e Historial médico (PDF)</li>
+						</ul></p>
+				</div>				
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="feature section pt-0">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 ml-auto align-self-center">
+				<div class="feature-content">
+					<!-- Feature Title -->
+					<h2>PhisiEMR te ayuda a gestionar tu clinica</h2>
+					<!-- Feature Description -->
+					<p><ul>
+						<li>
+							Registro de ventas y atenciones
+						</li>
+						<li>Presupuestos y detalles de cuenta</li>
+						<li>Lista de Precios</li>
+						<li>Reporte de Atenciones y Ventas</li>
+						<li>Portal del Tutor para descarga de exámenes con código</li>
+					</ul></p>
+				</div>
+				
+			</div>
+			<div class="col-lg-6 mr-auto justify-content-center">
+				<!-- Feature mockup -->
+				<div class="image-content" data-aos="fade-left">
+					<img class="img-fluid" src="images/image3.png" alt="ipad">
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!--====  End of Feature Grid  ====-->
+
+<!--==============================
+=            Services            =
+===============================-->
+<section class="service section bg-gray">
+	<div class="container-fluid p-0">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="section-title">
+					<h2>Siempre evolucionando y mejorando</h2>
+					<p>Con orgullo presentamos PhisiEMR 2.0, el resultado de cinco años de experiencia y retroalimentación directa de nuestros usuarios. Esta nueva versión representa un salto significativo en tecnología y usabilidad, ofreciendo una experiencia completamente renovada para la gestión veterinaria moderna.</p>
+				</div>
+			</div>
+		</div>
+		<div class="row no-gutters">
+			<div class="col-lg-6 align-self-center">
+				<!-- Feature Image -->
+				<div class="service-thumb left" data-aos="fade-right">
+					<img class="img-fluid" src="images/image4.png" alt="iphone-ipad">
+				</div>
+			</div>
+			<div class="col-lg-5 mr-auto align-self-center">
+				<div class="service-box">
+					<div class="row align-items-center">
+						<div class="col-md-6 col-xs-12">
+							<!-- Service 01 -->
+							<div class="service-item">
+								<!-- Icon -->
+								<i class="ti-bookmark"></i>
+								<!-- Heading -->
+								<h3>Nueva Interfaz</h3>
+								<!-- Description -->
+								<p>Más moderna e intuitiva. Mejores búsquedas y flujos de ingresos de datos más rápidos y a prueba de errores.</p>
+							</div>
+						</div>
+						<div class="col-md-6 col-xs-12">
+							<!-- Service 01 -->
+							<div class="service-item">
+								<!-- Icon -->
+								<i class="ti-pulse"></i>
+								<!-- Heading -->
+								<h3>Nueva Funcionalidad</h3>
+								<!-- Description -->
+								<p>Módulo de hospitalización renovado y agendamiento online</p>
+							</div>
+						</div>
+						<div class="col-md-6 col-xs-12">
+							<!-- Service 01 -->
+							<div class="service-item">
+								<!-- Icon -->
+								<i class="ti-bar-chart"></i>
+								<!-- Heading -->
+								<h3>Mejor Reportería y Documentos</h3>
+								<!-- Description -->
+								<p>Más información de casos médicos y ventas. Informes editables en Excel y Docx. Nuevos certificados de defunción y recetas</p>
+							</div>
+						</div>
+						<div class="col-md-6 col-xs-12">
+							<!-- Service 01 -->
+							<div class="service-item">
+								<!-- Icon -->
+								<i class="ti-panel"></i>
+								<!-- Heading -->
+								<h3>Mejor Administración</h3>
+								<!-- Description -->
+								<p>Gestión de usuarios, configuración de datos de la clínica, selección de temas, y mucho más.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!--====  End of Services  ====-->
+
+
+<!--=================================
+=            Video Promo            =
+==================================-->
+<section class="video-promo section bg-1">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="content-block">
+					<!-- Heading -->
+					<h2>Prueba la nueva versión!</h2>
+					<!-- Promotional Speech -->
+					<p>Si eres cliente puedes probar la nueva versión de PhisiEMR aquí </p>
+					<a href="https://fichas2.phisi.net" class="btn btn-main-md">Acceso Nueva Versión</a>
+					<p>(*) Plataforma en desarrollo, algunas funciones pueden no estar disponibles. </p>
+					<!-- Popup Video -->
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!--====  End of Video Promo  ====-->
+
+
+
+<!--============================
+=            Footer            =
+=============================-->
+<footer>
+  
+  <div class="text-center bg-dark py-4">
+    <small class="text-secondary">Copyright &copy; <script>document.write(new Date().getFullYear())</script>. Developed by BlackQuiltro. Web design theme by <a href="https://themefisher.com/">Themefisher</a></small class="text-secondary">
+  </div>	   
+</footer>
+
+
+  <!-- To Top -->
+  <div class="scroll-top-to">
+    <i class="ti-angle-up"></i>
+  </div>
+  
+  <!-- JAVASCRIPTS -->
+  <script src="plugins/jquery/jquery.min.js"></script>
+  <script src="plugins/bootstrap/bootstrap.min.js"></script>
+  <script src="plugins/slick/slick.min.js"></script>
+  <script src="plugins/fancybox/jquery.fancybox.min.js"></script>
+  <script src="plugins/syotimer/jquery.syotimer.min.js"></script>
+  <script src="plugins/aos/aos.js"></script>
+  
+  <script src="js/script.js"></script>
+</body>
+
 </html>
